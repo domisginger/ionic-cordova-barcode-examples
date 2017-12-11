@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Barcode Tester</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <button (click)="scan()" ion-button full>Scan</button>
+
+    <button (click)="scanCamera()" ion-button full>Scan Camera</button>
+
+    <button (click)="scanLinea()" ion-button full>Scan Linea</button>
+        
+    <button (click)="disableScanning()" ion-button color="danger" full>Disable Scanning</button>
+    
+    <button (click)="enableScanning()" ion-button color="secondary" full>Enable Scanning</button>        
+
+    <button (click)="enableBeep()" ion-button color="secondary" full>Enable Beep</button>
+
+    <button (click)="disableBeep()" ion-button color="danger" full>Disable Beep</button>
+</ion-content>

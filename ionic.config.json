@@ -1,0 +1,11 @@
+{
+  "name": "barcode",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {},
+    "gulp": {}
+  },
+  "gulp": {
+    "enabled": false
+  }
+}
