@@ -1,9 +1,9 @@
 {
     "name": "barcode",
     "version": "0.0.1",
-    "author": "Ionic Framework",
+    "author": "Dom Slatford",
     "homepage": "http://ionicframework.com/",
-    "description": "An Ionic project",
+    "description": "Barcode Scanning Example App",
     "private": true,
     "scripts": {
         "clean": "ionic-app-scripts clean",
